@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./estilos.css">
+    <script src="./codigo.js"></script>
+</head>
+<body>
+    <div id="calculadora">
+        <input id="pantalla" type="text">
+        <button id="borrar" onclick="borrar()">C</button>
+        <br>
+        <input id="7" type="button" class="btn" value="7" onclick="asignanum('7')">
+        <input id="8" type="button" class="btn" value="8" onclick="asignanum('8')">
+        <input id="9" type="button" class="btn" value="9" onclick="asignanum('9')">
+        <input id="+" type="button" class="btn" value="+" onclick="operacion('+')">
+        <br>
+        <input type="button" class="btn" value="4" onclick="asignanum('4')">
+        <input type="button" class="btn" value="5" onclick="asignanum('5')">
+        <input type="button" class="btn" value="6" onclick="asignanum('6')">
+        <input type="button" class="btn" value="-" onclick="operacion('-')">
+        <br>
+        <input type="button" class="btn" value="1" onclick="asignanum('1')">
+        <input type="button" class="btn" value="2" onclick="asignanum('2')">
+        <input type="button" class="btn" value="3" onclick="asignanum('3')">
+        <input type="button" class="btn" value="*" onclick="operacion('*')">
+        <br>
+        <input type="button" class="btn" value="." onclick="asignanum('.')">
+        <input type="button" class="btn" value="0" onclick="asignanum('0')">
+        <input type="button" class="btn" value="/" onclick="operacion('/')">
+        <input type="button" class="btn" value="=" onclick="calcular()">
+    </div>
+</body>
+</html>

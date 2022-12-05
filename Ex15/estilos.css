@@ -1,0 +1,19 @@
+#container{
+    display:flex;
+}
+
+#miniaturas{
+    width: 40%;
+}
+
+#miniaturas > img{
+    width: 20%;
+}
+
+#visor{
+    width: 60%;
+}
+
+#grande{
+    width: 80%;
+}

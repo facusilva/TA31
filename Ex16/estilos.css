@@ -1,0 +1,11 @@
+p{
+    display:inline;
+    font-size: 3em;
+}
+
+div{
+    border: 1px solid black;
+    width: 11%;
+    margin:auto;
+    margin-top:20%;
+}

@@ -1,0 +1,26 @@
+#calculadora{
+    background-color: grey;
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+}
+
+.btn{
+    width: 60px;
+    padding: 20px;
+    margin:0px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+input{
+    width: 370px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+#borrar{
+    margin: 0px;
+    padding: 2px;
+    color:red;
+}
